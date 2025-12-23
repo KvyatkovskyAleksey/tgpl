@@ -4,6 +4,7 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"os"
 )
 
@@ -15,7 +16,7 @@ func main() {
 	}
 	for text, count := range counts {
 		if count > 1 {
-			println(text, count)
+			fmt.Printf("%d\t%s\n", count, text)
 		}
 	}
 }
