@@ -14,7 +14,7 @@ func TestRepeat(t *testing.T) {
 }
 
 func ExampleRepeat() {
-	repeated := Repeat("a")
+	Repeat("a")
 	// Output: 6
 }
 
